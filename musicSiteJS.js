@@ -90,7 +90,7 @@ quoteBox.appendChild(quote3);
 
 quotes();
 
-
+console.log(window.location.pathname === 'https://jdallos.github.io/Jdallosmusic/index.html');
 //functions only on index.html
 if(window.location.pathname === 'https://jdallos.github.io/Jdallosmusic/index.html'){
 
