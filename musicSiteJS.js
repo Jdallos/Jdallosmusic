@@ -90,9 +90,9 @@ quoteBox.appendChild(quote3);
 
 quotes();
 
-console.log(window.location.pathname === 'https://jdallos.github.io/Jdallosmusic/index.html');
+console.log('updated');
 //functions only on index.html
-if(window.location.pathname === 'https://jdallos.github.io/Jdallosmusic/index.html'){
+if(window.location.pathname === '/Jdallosmusic/index.html'){
 
 //homepage player appear
 function homePlayer(){
@@ -158,7 +158,7 @@ randSong();
 
 
 //functions run only on live page
-if(window.location.pathname === 'https://jdallos.github.io/Jdallosmusic/Jdallosmusic/live.html'){
+if(window.location.pathname === '/Jdallosmusic/live.html'){
 //Youtube video randomize
 function randVid(){
 const vidPlayer = document.querySelector('.rand-video');
