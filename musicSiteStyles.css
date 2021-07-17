@@ -1043,28 +1043,25 @@ tr td a:hover{
   .container-home-right{
     right: 3%;  
   }
-  .directions-home-des{
-    height:25%;
-
-  }
   .directions-home-des .design-img-text{
     position:inherit;
     left:0%;
   }
   .design-img{
     width:50vw;
+    height:36vh;
   }
   .design-img-5{
-    height:36vh;
+    height:32vh;
   }
 }
 
 @media(max-width: 380px) and (min-width: 0px){
   .design-img{
-    height:37vh;
+    height:32vh;
   }
   .design-img-5{
-    height:32vh;
+    height:28vh;
   }
 }
 
