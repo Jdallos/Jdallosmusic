@@ -92,7 +92,7 @@ quotes();
 
 
 //functions only on index.html
-if(window.location.pathname === '/index.html'){
+if(window.location.pathname === 'Jdallosmusic/index.html'){
 
 //homepage player appear
 function homePlayer(){
