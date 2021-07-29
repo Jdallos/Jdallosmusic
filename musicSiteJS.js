@@ -92,7 +92,7 @@ quotes();
 
 console.log('updated');
 //functions only on index.html
-if(window.location.pathname === '/Jdallosmusic/index.html'){
+if(window.location.pathname === '/Jdallosmusic/index.html' || window.location.pathname === '/Jdallosmusic/'){
 
 //homepage player appear
 function homePlayer(){

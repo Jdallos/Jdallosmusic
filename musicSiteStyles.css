@@ -1058,10 +1058,11 @@ tr td a:hover{
 
 @media(max-width: 380px) and (min-width: 0px){
   .design-img{
-    height:32vh;
+    height:30vh;
   }
   .design-img-5{
-    height:28vh;
+    height:27vh;
+    width:51vw;
   }
 }
 
