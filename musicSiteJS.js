@@ -149,7 +149,6 @@ const songs = [
   'https://open.spotify.com/embed/track/0DEL22YuB4aFnxCOcFRP19'  //Here Tonight
 ];
 
-// console.log(songs[num]);
 homePlayer.src = songs[num];
 
 }
@@ -173,7 +172,6 @@ const videos = [
 ];
 
 const num6 = Math.floor(Math.random()*6);
-// console.log(videos[num6]);
 
 vidPlayer.src = videos[num6];
 }
